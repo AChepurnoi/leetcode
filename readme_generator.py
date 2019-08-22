@@ -1,6 +1,5 @@
 import os
 import time
-from collections import defaultdict
 from re import finditer
 
 extenstion_name = {
