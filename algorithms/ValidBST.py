@@ -29,17 +29,4 @@ class Solution:
             
         return True
 
-root = TreeNode(3)
-b = TreeNode(1)
-c = TreeNode(3)
-d = TreeNode(6)
-e = TreeNode(1)
-
-b.left = a
-# b.left = c
-# a.right = d
-# d.left = e
-
-res = Solution().isValidBST(b)
-print(res)
 
